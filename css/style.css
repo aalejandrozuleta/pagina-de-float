@@ -1,0 +1,294 @@
+:root{
+    --blanco:#ffff;
+    --negro:#0000;
+    --naranja:#E8491D;
+    --azul:#1293D4;
+    --sobrePuesto:#24282B;
+    --color:#2d2d2d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: var(--sobrePuesto);
+    border-bottom:5px solid var(--azul);
+    position: sticky;
+    top: 0;
+}
+
+#azul {
+    color:var(--azul) ;
+}
+
+header h1 {
+    float: left;
+    width: 30%;
+    color: var(--blanco);
+}
+
+header nav {
+    float: right;
+}
+
+.navBar {
+    width: 70%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    padding-left:50%;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+    width: 15%;
+    height: 100%;   
+
+}
+.menu li a {
+    text-decoration: none;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+
+.menu li a:hover{
+    color: var(--azul);
+}
+/* fin de navegación */
+
+#suscripcion {
+    width: 100%;
+    height: 80px;
+    background-color: var(--sobrePuesto);
+    padding: 1.5% 0;
+    text-align: center;
+    color: var(--blanco );
+}
+
+#suscripcion h2 {
+    width: 50%;
+    float: left;
+}
+
+#suscripcion .inscripcion {
+    width: 50%;
+    float: right;
+}
+
+.inscripcion {
+    width: 100%;
+    height: 100%;
+}
+
+.inscripcion input {
+    width: 40%;
+    height: 30px;
+    text-transform: capitalize;
+}
+
+.inscripcion button {
+    width: 20%;
+    height: 35px;
+    background-color: var(--naranja);
+    color: var(--blanco);
+}
+
+/*fin  suscripciones */
+
+aside{
+    float: right;
+    width: 20%;
+    height: auto;
+    margin:40px;
+}
+
+aside h3{
+    padding: 20px 10%;
+}
+
+aside p {
+    padding: 10px 10%;
+}   
+/*fin aside */
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: var(--azul);
+    text-align: center;
+    padding: 2% 0;
+    text-transform: capitalize;
+}
+
+/* fin footer */
+
+
+
+/* fin fabrica */
+
+#fondoInformacion {
+    background: url(../images/cabecera.jpg) center ;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: var(--blanco);
+}   
+
+#fondoInformacion div {
+    padding-top: 10%;
+}
+
+#fondoInformacion h2 {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#fondoInformacion p {
+    width: 80%;
+    margin: 20px auto 0;
+}
+
+#tecnologias {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.bloquesTecnologias {
+    width: 30%;
+    height: 100%;
+    float:left; 
+    margin: 20px;
+}
+
+
+/* nosotros */
+
+#nosotros {
+    width: 70%;
+    height: 500px;
+    float: left;
+}
+
+#nosotros h3 {
+    padding: 0 10%;
+    text-transform: capitalize  ;
+}
+
+#nosotros .infoNosotros {
+    width: 80%;
+    margin: 2% 10% ;
+}
+
+.infoNosotros {
+    padding: 20px;
+}
+
+.imagenNosotros{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.imagenNosotros img {
+    width: 100%;
+    height: 80%;
+}
+
+.color {
+    background-color: var(--color);
+    color: var(--blanco);
+}
+
+/* servicios */
+
+
+#servicios {
+    width: 70%;
+    height: 510px;
+    float: left;
+}
+
+#servicios h3 {
+    padding: 10px 10%;
+    text-transform: capitalize  ;
+}
+
+#servicios .infoServicios {
+    width: 80%;
+    height: 30%;
+    margin: .2% 10%;
+    padding: 20px;
+    background-color: #d4d4d4;
+}
+
+.infoServicios p {
+    margin-top: 10px;
+}
+
+/* contacto */
+
+#contacto {
+    width: 70%;
+    height: auto;   
+    float: left;
+}
+
+#contacto h3 {
+    padding: 10px 10%;
+    text-transform: capitalize;
+}
+
+#contacto .inputContacto{
+
+    margin: 0 10%;
+
+}
+
+.inputContacto input {
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    padding: 20px;
+}
+
+.inputTexto input {
+    height: 120px;
+}
+
+#btnEnviar {
+    margin: 10px 0 ;
+    padding: 0;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    text-transform: capitalize;
+}
+
+.contactoAside img {
+    width: 100%;
+    height: 350px;
+    padding-top: 30px;
+}
+
+
